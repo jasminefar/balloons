@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.balloon-container {
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+.balloon {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background: radial-gradient(circle, rgba(255,255,255,0.7), rgba(0,0,0,0.2));
+    border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.balloon::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    top: 10px;
+    left: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.balloon::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+    top: 80px;
+    left: 29px;
+}
+
+#balloon1 {
+    top: 30px;
+    left: 40px;
+    background-color: #ff6347;
+}
+
+#balloon2 {
+    top: 70px;
+    left: 100px;
+    background-color: #ffa07a;
+}
+
+#balloon3 {
+    top: 50px;
+    left: 160px;
+    background-color: #f08080;
+}
+
+#balloon4 {
+    top: 20px;
+    left: 220px;
+    background-color: #ff4500;
+}
+
+#balloon5 {
+    top: 90px;
+    left: 280px;
+    background-color: #ff8c00;
+}
+
+#balloon6 {
+    top: 60px;
+    left: 340px;
+    background-color: #ffd700;
+}
+
+#balloon7 {
+    top: 100px;
+    left: 400px;
+    background-color: #adff2f;
+}
+
+#balloon8 {
+    top: 30px;
+    left: 460px;
+    background-color: #32cd32;
+}
+
+#balloon9 {
+    top: 110px;
+    left: 520px;
+    background-color: #4682b4;
+}
+
+#balloon10 {
+    top: 40px;
+    left: 580px;
+    background-color: #6a5acd;
+}
+
+#balloon11 {
+    top: 150px;
+    left: 20px;
+    background-color: #da70d6;
+}
+
+#balloon12 {
+    top: 120px;
+    left: 70px;
+    background-color: #ba55d3;
+}
+
+#balloon13 {
+    top: 140px;
+    left: 140px;
+    background-color: #9400d3;
+}
+
+#balloon14 {
+    top: 130px;
+    left: 200px;
+    background-color: #8a2be2;
+}
+
+#balloon15 {
+    top: 170px;
+    left: 260px;
+    background-color: #9932cc;
+}
+
+#balloon16 {
+    top: 160px;
+    left: 320px;
+    background-color: #8b008b;
+}
+
+#balloon17 {
+    top: 190px;
+    left: 380px;
+    background-color: #4b0082;
+}
+
+#balloon18 {
+    top: 180px;
+    left: 440px;
+    background-color: #483d8b;
+}
+
+#balloon19 {
+    top: 200px;
+    left: 500px;
+    background-color: #0000cd;
+}
+
+#balloon20 {
+    top: 220px;
+    left: 560px;
+    background-color: #000080;
+}
